@@ -55,33 +55,16 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
 }
-.container {
-    width: 428px;
 
-}
 /* < !-- HEADER --> */
 /* < !-- SECTION_1 --> */
 
 .hero {
-    align-items: center;
-    justify-content: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto 600px;
-    /* або background-size: contain; */
-    width: 100%;
-    max-width: 100%;
-    /* максимальна ширина контейнера */
-    margin: 0 auto;
-    /* вирівнювання по центру */
-    text-align: center;
     padding-top: 112px;
     padding-bottom: 112px;
-    background-image: url(../images/dark-bg-mob.png), url(../images/people-office-mob.png);
+    max-width: 767px;
+    background-image: url(../images/dark-bg-tab.png), url(../images/people-office-tab.png);
 }
-
-
-
 
 .hero-title {
     font-weight: 700;
@@ -93,38 +76,12 @@ body {
     text-transform: capitalize;
 
     margin-bottom: 72px;
+    
 }
 
-/*********** BUTTON_HERO ***********/
-.hero-button {
-    display: inline-block;
-    border-radius: 4px;
-    padding: 16px 32px;
-    min-width: 169px;
-    min-height: 56px;
-    border: 1px solid transparent;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
 
-    background-color: var(--iris-color);
-    cursor: pointer;
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--hero-bg-text);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-button:hover,
-.hero-button:focus {
-    background-color: var(--ocean-color);
-
-}
-
-/*********** SECTION_2_STRATEGY ***********/
-.strategy {
-    padding-top: 96px;
-    padding-bottom: 96px;
+    margin-bottom: 36px;
 }

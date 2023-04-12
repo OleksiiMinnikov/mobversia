@@ -1,0 +1,82 @@
+
+@media screen and (min-width: 428px){
+    .container {
+            width: 428px;
+    
+        }
+
+
+}
+
+
+@media screen and (min-width: 768px)  {
+    .container {
+        width: 100%;
+        max-width: 768px;
+    
+        }
+/* < !-- HEADER --> */
+/* < !-- SECTION_1 --> */
+
+    .hero {
+        padding-top: 112px;
+        padding-bottom: 112px;
+        background-image: url(../images/dark-bg-tab.png), url(../images/people-office-tab.png);
+    }
+
+    .hero-title {
+       
+        font-size: 56px;
+        line-height: 1.07;
+       
+        margin-bottom: 36px;
+    }
+    .strategy {
+        width: 100%;
+        min-width: 768px;
+        padding-top: 96px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+/* 888888888888888888888888888888888888 */
+@media screen and (min-width: 1158px) {
+    .container{
+        width: 1158px;
+
+    }
+
+/* < !-- HEADER --> */
+/* < !-- SECTION_1 --> */
+    .hero {
+            padding-top: 188px;
+            padding-bottom: 188px;
+            background-image: url(../images/Dark-bg.png), url(../images/people-office.png);
+        }
+
+    .hero-title {
+        margin-bottom: 48px;
+        }
+
+/*********** SECTION_2_STRATEGY ***********/
+.strategy {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+    
+}
+
+
+
+
+
+

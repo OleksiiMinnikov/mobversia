@@ -1,0 +1,75 @@
+/* ---------- СТИЛІ ---------- */
+:root {
+    --tex-color: #434455;
+    --title-color: #2e2f42;
+    --background-color: #FFFFFF;
+    --hero-titel: #FFFFFF;
+    --portfolio-bg-focus: #FFFFFF;
+    --hero-bg-text: #FFFFFF;
+    --subtitle-color: #2e2f42;
+    --header-logo-hi: #2e2f42;
+    --header-item: #2e2f42;
+    --background-color-hero: #2e2f42;
+    --background-color-footer: #2e2f42;
+    --ocean-color: #404bbf;
+    --iris-color: #4D5AE5;
+    --cornflower: #E7E9FC;
+    --cloud: #f4f4fd;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+}
+
+.hero {
+    padding-top: 118px;
+    padding-bottom: 118px;
+    max-width: 1440px;;
+    background-image: url(../images/Dark-bg.png), url(../images/people-office.png);
+}
+
+/* .hero-title {
+    margin-bottom: 48px;
+} */
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+
+    margin-bottom: 48px;
+}
