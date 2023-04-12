@@ -175,3 +175,9 @@ body {
 
 }
 
+/*********** SECTION_3_DOING ***********/
+@media (max-width: 1158px) {
+    .doing {
+        display: none;
+    }
+}

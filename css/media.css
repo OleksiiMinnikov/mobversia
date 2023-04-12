@@ -150,3 +150,29 @@
     background-image: url(../images/svg/astronaut.svg);
 }
 }
+
+/*********** SECTION_3_DOING ***********/
+.doing {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.doing-sub{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+}
+.doing-list {
+    list-style: none;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
