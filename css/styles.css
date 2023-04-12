@@ -17,6 +17,7 @@
     --cloud: #f4f4fd;
 }
 
+
 h1,
 h2,
 h3,
@@ -35,7 +36,9 @@ img {
 
 ul {
     margin: 0;
-    padding-left: 0;
+    padding: 0;
+    /* padding-left: 0; */
+    list-style: none;
 }
 
 .visually-hidden {
@@ -55,6 +58,14 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
 }
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+
+  outline: tomato solid 1px;
+
+} */
 /* < !-- HEADER --> */
 /* < !-- SECTION_1 --> */
 
@@ -63,7 +74,7 @@ body {
     justify-content: center;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto 600px;
+    /* background-size: auto 600px; */
     /* або background-size: contain; */
     width: 100%;
     max-width: 100%;
@@ -123,4 +134,44 @@ body {
 .strategy {
     padding-top: 96px;
     padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.strategy-container {
+    width: 428px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0px;
+}
+.stratrgy-li{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 74px;
+}
+
+.strategy-sub{
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+    color: #2E2F42;
+    
+}
+.strategy-txt{
+    margin-top: 8px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
