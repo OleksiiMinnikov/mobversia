@@ -47,10 +47,9 @@
     .stratrgy-li{
         flex-direction: row;
         display: flex;
-            flex-wrap: wrap;
-            row-gap: 48px;
-            column-gap: 24px;
-      
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px;
     }
     
     .strategy-item{
@@ -101,6 +100,16 @@
     padding-right: 156px;
     }
 
+    .stratrgy-li {
+    flex-wrap: nowrap;
+    min-width: 264px;
+    align-items: baseline;
+    gap: 24px;
+    }
+    .strategy-item {
+    width: none;
+    }
+
     .strategy-sub {
     font-weight: 500;
     font-size: 20px;
@@ -110,4 +119,32 @@
     .strategy-txt {
     font-weight: 400;
     }
+
+/*********** icon_strategy ***********/
+.strategy-item::before {
+    display: block;
+    content: "";
+    height: 112px;
+
+    background-size: 64px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--cloud);
+}
+
+.icon-antenna::before {
+    background-image: url(../images/svg/antenna.svg);
+}
+
+.icon-clock::before {
+    background-image: url(../images/svg/clock.svg);
+}
+
+.icon-diagram::before {
+    background-image: url(../images/svg/diagram.svg);
+}
+
+.icon-astronaut::before {
+    background-image: url(../images/svg/astronaut.svg);
+}
 }
