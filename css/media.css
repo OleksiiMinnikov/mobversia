@@ -60,12 +60,7 @@
     text-align: left;
     }
 /*********** SECTION_4_TEAM ***********/
-.abc{
-            outline: tomato solid 1px;
-            width: 100%;
-            max-width: 768px;
-    
-}
+
   .team-company {
       flex-direction: row;
       display: flex;
@@ -73,7 +68,12 @@
       row-gap: 72px;
       column-gap: 24px;
   }
-
+.team-container {
+    width: 100%;
+    min-width: 768px;
+    padding-left: 108px;
+    padding-right: 108px;
+}
 
 } 
 
