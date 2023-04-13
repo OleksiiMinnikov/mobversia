@@ -181,7 +181,8 @@ body {
 }
 
 /*********** SECTION_3_DOING ***********/
-@media (min-width: 0px) and (max-width: 1158px) {
+
+ 
     .doing {
         display: none;
     }
