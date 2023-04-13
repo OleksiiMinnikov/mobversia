@@ -54,6 +54,11 @@ ul {
     overflow: hidden;
 }
 
+.link {
+    color: inherit;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--background-color);
@@ -176,8 +181,96 @@ body {
 }
 
 /*********** SECTION_3_DOING ***********/
-@media (max-width: 1158px) {
+@media (min-width: 0px) and (max-width: 1158px) {
     .doing {
         display: none;
     }
+ 
+
+    /*********** SECTION_4_TEAM ***********/
+.team {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    background: #F4F4FD;
 }
+
+.team-container {
+
+    padding-left: 82px;
+    padding-right: 82px;
+    margin: 0px;
+}
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.team-company {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+
+.team-people {
+    background-color: var(--background-color);
+    text-align: center;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.team-item {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.team-sub {
+    align-items: baseline;
+}
+
+.team-tex {
+    margin-top: 8px;
+    align-items: baseline;
+}
+
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.team-soc-item {
+    width: 40px;
+    height: 40px;
+
+}
+
+.team-soc-link {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: var(--iris-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: var(--ocean-color);
+
+}
+
+
+}
+

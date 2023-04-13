@@ -59,7 +59,27 @@
     .strategy-sub{
     text-align: left;
     }
+/*********** SECTION_4_TEAM ***********/
+.team-company {
+    margin-top: 72px;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 64px;
+    column-gap: 24px
 }
+
+/* .team-people {
+    width: calc ((100% - 64px) / 2);
+
+} */
+
+}
+
+
+
+
+
 
 
 
@@ -149,15 +169,15 @@
 .icon-astronaut::before {
     background-image: url(../images/svg/astronaut.svg);
 }
-}
 
 /*********** SECTION_3_DOING ***********/
 .doing {
     padding-top: 120px;
     padding-bottom: 120px;
-    
+
 }
-.doing-sub{
+
+.doing-sub {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -168,6 +188,7 @@
 
     color: #2E2F42;
 }
+
 .doing-list {
     list-style: none;
     margin-top: 72px;
@@ -176,3 +197,38 @@
     justify-content: center;
     gap: 24px;
 }
+
+
+/*********** SECTION_4_TEAM ***********/
+.team {
+    background: #F4F4FD;
+}
+
+/* .team-company {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+
+    justify-content: center;
+    align-items: center;
+
+    } */
+
+
+
+
+
+}
+ /* .stratrgy-li {
+     flex-direction: row;
+     display: flex;
+     flex-wrap: wrap;
+     row-gap: 72px;
+     column-gap: 24px;
+ }
+
+ .strategy-item {
+     width: calc((100% - 24px) / 2);
+ } */
